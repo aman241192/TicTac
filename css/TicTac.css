@@ -1,0 +1,53 @@
+ body {
+    background: #e3e3e3;
+}
+
+.container {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%); */
+}
+
+.tictac {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.tictac>.block1 {
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    /* width: 100px; */
+    height: 100px;
+    background: black;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.turn {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+.result {
+    margin: 10px 0;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+ 
